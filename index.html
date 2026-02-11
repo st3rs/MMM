@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>MMM - Mook Money Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#fdf4ff',
+                100: '#fae8ff',
+                200: '#f5d0fe',
+                300: '#f0abfc',
+                400: '#e879f9',
+                500: '#d946ef',
+                600: '#c026d3',
+                700: '#a21caf',
+                800: '#86198f',
+                900: '#701a75',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 text-gray-900 h-screen overflow-hidden select-none">
+    <div id="root" class="h-full w-full"></div>
+  </body>
+</html>

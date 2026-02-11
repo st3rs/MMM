@@ -1,0 +1,7 @@
+{
+  "name": "MMM - Mook Money Management",
+  "description": "แอพพลิเคชันจัดการรายรับรายจ่ายสำหรับกลุ่มคนทำงาน ช่วยจัดการงบประมาณ สแกนสลิป และแยกค่าใช้จ่ายส่วนตัว/ส่วนกลาง",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
